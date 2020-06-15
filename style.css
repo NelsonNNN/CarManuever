@@ -11,7 +11,7 @@ body {
     width: 25%;
     left: 25%;
     margin-top: 20px;;
-    background-color: #666666;
+    background-color: #1d1d1d;
     overflow: hidden;
 }
 .line{
@@ -19,7 +19,7 @@ body {
     height: 150px;
     width: 4%;
     margin-left: 48%;
-    background-color: rgba(255,255,255,1);
+    background-color: rgb(252, 215, 9);
 }
 #line_1{
     top: -150px;
@@ -40,7 +40,7 @@ body {
 #car{
     bottom: 8%;
     left: 60%;
-    background-color: #ff0000;
+    background-color: #dafd13;
 }
 .f_glass{
     position: absolute;
@@ -117,17 +117,17 @@ body {
 #car_1{
     top: -100px;
     left: 60%;
-    background-color: #00ff00;
+    background-color: #263126;
 }
 #car_2{
     top: -200px;
     left: 40%;
-    background-color: yellow;
+    background-color: rgb(65, 65, 2);
 }
 #car_3{
     top: -350px;
     left: 50%;
-    background-color: #26c5ff;
+    background-color: #0827da;
 }
 #restart_div {
     position: absolute;
@@ -135,7 +135,7 @@ body {
     width: 100%;
     background-color: #292929;
     color: white;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     text-align: center;
     display: none;
@@ -144,8 +144,10 @@ body {
 #restart {
     border: none;
     padding: 25px;
+    position: relative;
+    top: 20%;
     color: white;
-    background-color: #8a64ff;
+    background-color: #37f508;
     font-size: 30px;
     margin-top: 30%;
 }
@@ -154,9 +156,10 @@ body {
 }
 #score_div{
     position: absolute;
+    top: 40%;
     margin-left: 10%;
     font-size: 35px;
-    background-color: black;
+    background-color: #000000;
     color: #ffffff;
     padding: 10px;
 }
